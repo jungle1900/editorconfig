@@ -11,8 +11,12 @@ insert_final_newline = true
 [*.md]
 trim_trailing_whitespace = false
 
-[*.{css,html,js}]
+[*.{htm,html,js,ts,tsx,css,sass,scss,less}]
 indent_size = 2
 
-[docker-compose.yml]
+[*.{json,json5,yml,yaml}]
 indent_size = 2
+
+[*.go]
+indent_style = tab
+indent_size = 8
