@@ -17,6 +17,9 @@ indent_size = 2
 [*.{json,json5,yml,yaml}]
 indent_size = 2
 
+[Dockerfile]
+indent_size = 2
+
 [*.go]
 indent_style = tab
 indent_size = 8
