@@ -17,10 +17,10 @@ indent_size = 2
 [*.{json,json5,yml,yaml}]
 indent_size = 2
 
-[Dockerfile]
+[{D,d}ockerfile]
 indent_size = 2
 
-[makefile]
+[{M,m}akefile]
 indent_style = tab
 
 [*.go]
