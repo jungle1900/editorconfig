@@ -20,6 +20,9 @@ indent_size = 2
 [Dockerfile]
 indent_size = 2
 
+[makefile]
+indent_style = tab
+
 [*.go]
 indent_style = tab
 indent_size = 8
